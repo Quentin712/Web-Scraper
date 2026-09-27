@@ -1,0 +1,16 @@
+{
+  "name": "canvas-assignment-tracker",
+  "version": "1.0.0",
+  "description": "Pulls assignments for one Canvas course into JSON and shows them in a small local web UI.",
+  "type": "module",
+  "scripts": {
+    "fetch": "node fetch-assignments.js",
+    "serve": "node serve.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
