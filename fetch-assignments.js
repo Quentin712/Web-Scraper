@@ -1,7 +1,7 @@
 import 'dotenv/config';
 import { writeFile } from 'node:fs/promises';
 
-const CANVAS_URL = process.env.CANVAS_URL;
+const CANVAS_URL = (process.env.CANVAS_URL || '').replace(/\/+$/, '');
 const CANVAS_TOKEN = process.env.CANVAS_TOKEN;
 const COURSE_NAME = process.env.COURSE_NAME || 'Frontend Web Development';
 
