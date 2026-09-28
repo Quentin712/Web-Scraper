@@ -2,7 +2,6 @@
 
 Pulls every assignment for one Canvas course (default: "Frontend Web Development") from Canvas's official API, saves it as JSON, and shows it as a report page. No browser automation, no login scripting, no scraping.
 
-Repo: https://github.com/Quentin712/Web-Scraper
 
 ## How it works
 
